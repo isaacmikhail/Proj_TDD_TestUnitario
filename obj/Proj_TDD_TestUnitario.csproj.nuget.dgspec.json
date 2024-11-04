@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj": {}
+    "d:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj": {
+    "d:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj",
+        "projectUniqueName": "d:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj",
         "projectName": "Proj_TDD_TestUnitario",
-        "projectPath": "D:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj",
+        "projectPath": "d:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\Proj_TDD_TestUnitario.csproj",
         "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\obj\\",
+        "outputPath": "d:\\Documents\\FullStackDIO_Projects\\Proj_TDD_TestUnitario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Isaac\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
